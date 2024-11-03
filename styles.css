@@ -1,0 +1,225 @@
+/* Основные стили */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Навигация */
+.header {
+  background-color: #336699;
+  padding: 10px 0;
+  color: white;
+}
+
+.navbar {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.logo {
+  font-size: 24px;
+  color: white;
+}
+
+/* Герой блок */
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #e6f7ff;
+}
+
+.hero-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.hero-button {
+  padding: 10px 20px;
+  background-color: #336699;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+/* Услуги */
+.services {
+  background-color: #f4f4f4;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.service-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 30%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 15px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Отзывы */
+.reviews {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.review {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 15px auto;
+  max-width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Контакты */
+.contact {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form button {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.contact-form button {
+  background-color: #336699;
+  color: white;
+  cursor: pointer;
+}
+
+/* Прайс-лист */
+.services-pricing {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.price-list {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.price-list th,
+.price-list td {
+  padding: 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.price-list th {
+  background-color: #336699;
+  color: white;
+  font-weight: bold;
+}
+
+.price-list td {
+  background-color: #fff;
+}
+
+.price-list tr:nth-child(even) td {
+  background-color: #f4f4f4;
+}
+/* Стили для страницы подтверждения */
+.confirmation-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #f9f9f9;
+  color: #336699;
+}
+
+.confirmation-message h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #336699;
+}
+
+.confirmation-message p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.back-button {
+  padding: 10px 20px;
+  background-color: #336699;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.back-button:hover {
+  background-color: #264d73;
+}
+/* Центрирование кнопки под таблицей */
+.services-pricing {
+  text-align: center;
+}
+
+.hero-button {
+  display: inline-block;
+  margin-top: 20px; /* Отступ сверху */
+  padding: 10px 20px;
+  background-color: #336699;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.hero-button:hover {
+  background-color: #264d73; /* Изменение цвета при наведении */
+}
